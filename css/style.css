@@ -113,11 +113,13 @@ footer {
 .dark_grey {
     background-color: rgba(163,153,162,255);
     height: 25rem;
+    padding-top: 1rem;
 }
 
 
 .grey {
     background-color: rgba(170,168,173,255);
+    
 }
 
 .logo, .button {
@@ -129,7 +131,8 @@ footer {
 
 
 .top {
-    height: 10rem;
+    height: 15rem;
+    padding-top: 1rem;
     justify-content: space-between;
 
 }
@@ -142,5 +145,6 @@ footer {
     height: 3rem;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3rem;
 }
 
