@@ -10,6 +10,10 @@ header {
     height: 2.5rem;
 }
 
+footer {
+    background-color: rgb(66,110,236);
+}
+
 .header_page {
     background-color: rgba(190,186,192,255);
     height: 2.5rem;
@@ -32,6 +36,10 @@ header {
     display: flex;   
 }
 
+.col-1 {
+    width: 10%;
+
+}
 
 .col-2 {
     width: 20%;
@@ -87,3 +95,52 @@ header {
     justify-content: space-around;
     align-items: center;
 }
+
+.main_bottom {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    height: 20rem;
+    background-color: rgba(249,217,156,255);
+}
+
+/* footer */
+
+footer {
+    padding-bottom: 4rem;
+}
+
+
+.dark_grey {
+    background-color: rgba(163,153,162,255);
+    height: 25rem;
+}
+
+
+.grey {
+    background-color: rgba(170,168,173,255);
+}
+
+.logo, .button {
+    height: 2rem;
+    width: 5rem;
+    background-color: rgba(249,217,156,255);
+}
+
+
+
+.top {
+    height: 10rem;
+    justify-content: space-between;
+
+}
+
+.top>div {
+    background-color: rgba(249,217,156,255);
+}
+
+.mid{
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
