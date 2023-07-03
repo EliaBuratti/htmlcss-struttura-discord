@@ -1,0 +1,46 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(216,217,219,255);
+    height: 2.5rem;
+}
+
+.header_page {
+    background-color: rgba(190,186,192,255);
+    height: 2.5rem;
+    padding-top: 0.75rem;
+}
+
+.row>section {
+    background-color: rgba(217,129,125,255);
+    height: 1rem;
+    border: 1px dashed black;
+}
+
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;   
+}
+
+
+.col-2 {
+    width: 20%;
+}
+
+.col-6 {
+    width: 60%;
+
+}
+
+
+
