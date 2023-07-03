@@ -37,10 +37,53 @@ header {
     width: 20%;
 }
 
-.col-6 {
-    width: 60%;
+.col-4 {
+    width: 40%;
+}
 
+.col-8 {
+    width: 60%;
 }
 
 
+.image {
+    background-color: rgba(149,168,227,255);
+    height: 15rem;
+    padding-top: 1.5rem;
+}
 
+.download {
+    background-color:rgba(171,174,189,255);
+    height: 10rem;
+    width: 45%;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+.yellow {
+    background-color: rgba(249,217,156,255);
+    height: 10rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+.brown {
+    background-color: rgba(205,193,171,255);
+    height: 8rem;
+}
+.brown>div {
+    background-color: rgba(142,225,169,255);
+    height: 6rem;
+
+}
+
+.card {
+    background-color: rgba(133,192,198,255);
+    height: 4rem;
+    margin: 1rem;
+}
+
+.center {
+    justify-content: space-around;
+    align-items: center;
+}
